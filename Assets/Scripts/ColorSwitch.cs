@@ -33,5 +33,7 @@ public class ColorSwitch : MonoBehaviour
 
         colorSwitchMat.SetColor("_BgColor", bgColor);
         colorSwitchMat.SetColor("_FgColor", fgColor);
+
+        Camera.main.backgroundColor = bgColor;
     }
 }
