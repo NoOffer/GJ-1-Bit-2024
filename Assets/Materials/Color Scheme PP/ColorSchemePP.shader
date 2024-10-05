@@ -5,7 +5,7 @@ Shader "Custom/ColorSchemePP"
         _MainTex ("Texture", 2D) = "white" {}
 
         _BgColor ("Background Color", Color) = (0.0, 0.0, 0.0, 1.0)
-        _FgColor ("Background Color", Color) = (1.0, 1.0, 1.0, 1.0)
+        _FgColor ("Foreground Color", Color) = (1.0, 1.0, 1.0, 1.0)
         //_IntpFactor ("Interpolation Factor", Range(0.0, 1.0)) = 0.0
     }
     SubShader
