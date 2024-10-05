@@ -7,10 +7,13 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private Vector2 rangeMultiplier;
 
+    private PlayerControlScheme controlScheme;
+
     private Vector3 originalOffset;
 
-    void Start()
+    void Awake()
     {
+        controlScheme = new PlayerControlScheme();
 
         originalOffset = transform.position - target.transform.position;
     }
