@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ColorSwitch",
+                    "type": "Button",
+                    "id": "74a9bb74-790a-4d44-a0ca-8b052fb19ca9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -70,6 +79,17 @@
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fde404b7-0182-485e-a2da-10065efce845",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ColorSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
