@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class ColorSwitch : MonoBehaviour
 {
+    public static ColorSwitch _instance;
+
     [SerializeField] private Material colorSwitchMat;
     [SerializeField] private Color bgColor;
     [SerializeField] private Color fgColor;
